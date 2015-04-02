@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PTHole" representedClassName="PTHole" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="putts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PTPutt" inverseName="hole" inverseEntity="PTPutt" syncable="YES"/>
+        <relationship name="round" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PTRound" inverseName="holes" inverseEntity="PTRound" syncable="YES"/>
+    </entity>
+    <entity name="PTPutt" representedClassName="PTPutt" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="hole" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PTHole" inverseName="putts" inverseEntity="PTHole" syncable="YES"/>
+    </entity>
+    <entity name="PTRound" representedClassName="PTRound" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="holes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PTHole" inverseName="round" inverseEntity="PTHole" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PTHole" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="PTPutt" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="PTRound" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

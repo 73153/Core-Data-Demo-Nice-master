@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7103F02-4251-4081-81E3-462AB19A0019</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Washington's Rules</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>123BB9A0-CBFB-4BB0-A2AD-A4EE044690CE</key>
+		<string>ssh://github.com/factorial/washingtons-rules.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Washington's Rules.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>123BB9A0-CBFB-4BB0-A2AD-A4EE044690CE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/factorial/washingtons-rules.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>123BB9A0-CBFB-4BB0-A2AD-A4EE044690CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>123BB9A0-CBFB-4BB0-A2AD-A4EE044690CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>washingtons-rules</string>
+		</dict>
+	</array>
+</dict>
+</plist>

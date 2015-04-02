@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520A9E6519022E81000A650C /* WashingtonsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 520A9E6319022E81000A650C /* WashingtonsDataModel.xcdatamodeld */; };
+		520A9E67190242D7000A650C /* WashingtonsDefaultData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 520A9E66190242D7000A650C /* WashingtonsDefaultData.sqlite */; };
+		522EA404190B628D00F1D593 /* washington-cropped.png in Resources */ = {isa = PBXBuildFile; fileRef = 522EA403190B628D00F1D593 /* washington-cropped.png */; };
+		5260819D18F8E32F00DDC21D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5260819C18F8E32F00DDC21D /* CoreData.framework */; };
+		52CBBB05190AAD3F00EB9B48 /* WashingtonsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CBBB04190AAD3F00EB9B48 /* WashingtonsConstants.m */; };
+		52CCB0AF18EB98F600A08DBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0AE18EB98F600A08DBD /* Foundation.framework */; };
+		52CCB0B118EB98F600A08DBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0B018EB98F600A08DBD /* CoreGraphics.framework */; };
+		52CCB0B318EB98F600A08DBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0B218EB98F600A08DBD /* UIKit.framework */; };
+		52CCB0B918EB98F600A08DBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CCB0B718EB98F600A08DBD /* InfoPlist.strings */; };
+		52CCB0BB18EB98F600A08DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB0BA18EB98F600A08DBD /* main.m */; };
+		52CCB0BF18EB98F600A08DBD /* WashingtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB0BE18EB98F600A08DBD /* WashingtonsAppDelegate.m */; };
+		52CCB0C118EB98F600A08DBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CCB0C018EB98F600A08DBD /* Images.xcassets */; };
+		52CCB0C818EB98F600A08DBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0C718EB98F600A08DBD /* XCTest.framework */; };
+		52CCB0C918EB98F700A08DBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0AE18EB98F600A08DBD /* Foundation.framework */; };
+		52CCB0CA18EB98F700A08DBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCB0B218EB98F600A08DBD /* UIKit.framework */; };
+		52CCB0D218EB98F700A08DBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CCB0D018EB98F700A08DBD /* InfoPlist.strings */; };
+		52CCB0D418EB98F700A08DBD /* Washington_s_RulesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB0D318EB98F700A08DBD /* Washington_s_RulesTests.m */; };
+		52CCB0DE18EB992300A08DBD /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CCB0DD18EB992300A08DBD /* Storyboard.storyboard */; };
+		52CCB0E718EBA25200A08DBD /* WashingtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB0E618EBA25200A08DBD /* WashingtonsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CCB0CB18EB98F700A08DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CCB0A318EB98F600A08DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CCB0AA18EB98F600A08DBD;
+			remoteInfo = "Washington's Rules";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520A9E6419022E81000A650C /* WashingtonsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WashingtonsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		520A9E66190242D7000A650C /* WashingtonsDefaultData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WashingtonsDefaultData.sqlite; sourceTree = "<group>"; };
+		522EA403190B628D00F1D593 /* washington-cropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "washington-cropped.png"; sourceTree = "<group>"; };
+		5260819C18F8E32F00DDC21D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52CBBB03190AAD3F00EB9B48 /* WashingtonsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WashingtonsConstants.h; sourceTree = "<group>"; };
+		52CBBB04190AAD3F00EB9B48 /* WashingtonsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WashingtonsConstants.m; sourceTree = "<group>"; };
+		52CCB0AB18EB98F600A08DBD /* Washington's Rules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Washington's Rules.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CCB0AE18EB98F600A08DBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52CCB0B018EB98F600A08DBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52CCB0B218EB98F600A08DBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52CCB0B618EB98F600A08DBD /* Washington's Rules-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Washington's Rules-Info.plist"; sourceTree = "<group>"; };
+		52CCB0B818EB98F600A08DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52CCB0BA18EB98F600A08DBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52CCB0BC18EB98F600A08DBD /* Washington's Rules-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Washington's Rules-Prefix.pch"; sourceTree = "<group>"; };
+		52CCB0BD18EB98F600A08DBD /* WashingtonsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WashingtonsAppDelegate.h; sourceTree = "<group>"; };
+		52CCB0BE18EB98F600A08DBD /* WashingtonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WashingtonsAppDelegate.m; sourceTree = "<group>"; };
+		52CCB0C018EB98F600A08DBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52CCB0C618EB98F600A08DBD /* Washington's RulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Washington's RulesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CCB0C718EB98F600A08DBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52CCB0CF18EB98F700A08DBD /* Washington's RulesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Washington's RulesTests-Info.plist"; sourceTree = "<group>"; };
+		52CCB0D118EB98F700A08DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52CCB0D318EB98F700A08DBD /* Washington_s_RulesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Washington_s_RulesTests.m; sourceTree = "<group>"; };
+		52CCB0DD18EB992300A08DBD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		52CCB0E518EBA25200A08DBD /* WashingtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WashingtonsViewController.h; sourceTree = "<group>"; };
+		52CCB0E618EBA25200A08DBD /* WashingtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WashingtonsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CCB0A818EB98F600A08DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260819D18F8E32F00DDC21D /* CoreData.framework in Frameworks */,
+				52CCB0B118EB98F600A08DBD /* CoreGraphics.framework in Frameworks */,
+				52CCB0B318EB98F600A08DBD /* UIKit.framework in Frameworks */,
+				52CCB0AF18EB98F600A08DBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CCB0C318EB98F600A08DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CCB0C818EB98F600A08DBD /* XCTest.framework in Frameworks */,
+				52CCB0CA18EB98F700A08DBD /* UIKit.framework in Frameworks */,
+				52CCB0C918EB98F700A08DBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52CCB0A218EB98F600A08DBD = {
+			isa = PBXGroup;
+			children = (
+				52CCB0B418EB98F600A08DBD /* Washington's Rules */,
+				52CCB0CD18EB98F700A08DBD /* Washington's RulesTests */,
+				52CCB0AD18EB98F600A08DBD /* Frameworks */,
+				52CCB0AC18EB98F600A08DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52CCB0AC18EB98F600A08DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CCB0AB18EB98F600A08DBD /* Washington's Rules.app */,
+				52CCB0C618EB98F600A08DBD /* Washington's RulesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CCB0AD18EB98F600A08DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5260819C18F8E32F00DDC21D /* CoreData.framework */,
+				52CCB0AE18EB98F600A08DBD /* Foundation.framework */,
+				52CCB0B018EB98F600A08DBD /* CoreGraphics.framework */,
+				52CCB0B218EB98F600A08DBD /* UIKit.framework */,
+				52CCB0C718EB98F600A08DBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52CCB0B418EB98F600A08DBD /* Washington's Rules */ = {
+			isa = PBXGroup;
+			children = (
+				52CCB0E518EBA25200A08DBD /* WashingtonsViewController.h */,
+				52CCB0E618EBA25200A08DBD /* WashingtonsViewController.m */,
+				52CBBB03190AAD3F00EB9B48 /* WashingtonsConstants.h */,
+				52CBBB04190AAD3F00EB9B48 /* WashingtonsConstants.m */,
+				52CCB0BD18EB98F600A08DBD /* WashingtonsAppDelegate.h */,
+				52CCB0BE18EB98F600A08DBD /* WashingtonsAppDelegate.m */,
+				52CCB0C018EB98F600A08DBD /* Images.xcassets */,
+				52CCB0B518EB98F600A08DBD /* Supporting Files */,
+				52CCB0DD18EB992300A08DBD /* Storyboard.storyboard */,
+			);
+			path = "Washington's Rules";
+			sourceTree = "<group>";
+		};
+		52CCB0B518EB98F600A08DBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520A9E66190242D7000A650C /* WashingtonsDefaultData.sqlite */,
+				522EA403190B628D00F1D593 /* washington-cropped.png */,
+				52CCB0B618EB98F600A08DBD /* Washington's Rules-Info.plist */,
+				52CCB0B718EB98F600A08DBD /* InfoPlist.strings */,
+				52CCB0BA18EB98F600A08DBD /* main.m */,
+				52CCB0BC18EB98F600A08DBD /* Washington's Rules-Prefix.pch */,
+				520A9E6319022E81000A650C /* WashingtonsDataModel.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CCB0CD18EB98F700A08DBD /* Washington's RulesTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CCB0D318EB98F700A08DBD /* Washington_s_RulesTests.m */,
+				52CCB0CE18EB98F700A08DBD /* Supporting Files */,
+			);
+			path = "Washington's RulesTests";
+			sourceTree = "<group>";
+		};
+		52CCB0CE18EB98F700A08DBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CCB0CF18EB98F700A08DBD /* Washington's RulesTests-Info.plist */,
+				52CCB0D018EB98F700A08DBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52CCB0AA18EB98F600A08DBD /* Washington's Rules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CCB0D718EB98F700A08DBD /* Build configuration list for PBXNativeTarget "Washington's Rules" */;
+			buildPhases = (
+				52CCB0A718EB98F600A08DBD /* Sources */,
+				52CCB0A818EB98F600A08DBD /* Frameworks */,
+				52CCB0A918EB98F600A08DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Washington's Rules";
+			productName = "Washington's Rules";
+			productReference = 52CCB0AB18EB98F600A08DBD /* Washington's Rules.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CCB0C518EB98F600A08DBD /* Washington's RulesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CCB0DA18EB98F700A08DBD /* Build configuration list for PBXNativeTarget "Washington's RulesTests" */;
+			buildPhases = (
+				52CCB0C218EB98F600A08DBD /* Sources */,
+				52CCB0C318EB98F600A08DBD /* Frameworks */,
+				52CCB0C418EB98F600A08DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CCB0CC18EB98F700A08DBD /* PBXTargetDependency */,
+			);
+			name = "Washington's RulesTests";
+			productName = "Washington's RulesTests";
+			productReference = 52CCB0C618EB98F600A08DBD /* Washington's RulesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CCB0A318EB98F600A08DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Washingtons;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SoftWhatever;
+				TargetAttributes = {
+					52CCB0C518EB98F600A08DBD = {
+						TestTargetID = 52CCB0AA18EB98F600A08DBD;
+					};
+				};
+			};
+			buildConfigurationList = 52CCB0A618EB98F600A08DBD /* Build configuration list for PBXProject "Washington's Rules" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52CCB0A218EB98F600A08DBD;
+			productRefGroup = 52CCB0AC18EB98F600A08DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CCB0AA18EB98F600A08DBD /* Washington's Rules */,
+				52CCB0C518EB98F600A08DBD /* Washington's RulesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52CCB0A918EB98F600A08DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522EA404190B628D00F1D593 /* washington-cropped.png in Resources */,
+				52CCB0B918EB98F600A08DBD /* InfoPlist.strings in Resources */,
+				520A9E67190242D7000A650C /* WashingtonsDefaultData.sqlite in Resources */,
+				52CCB0C118EB98F600A08DBD /* Images.xcassets in Resources */,
+				52CCB0DE18EB992300A08DBD /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CCB0C418EB98F600A08DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CCB0D218EB98F700A08DBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CCB0A718EB98F600A08DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CCB0BF18EB98F600A08DBD /* WashingtonsAppDelegate.m in Sources */,
+				52CCB0E718EBA25200A08DBD /* WashingtonsViewController.m in Sources */,
+				52CCB0BB18EB98F600A08DBD /* main.m in Sources */,
+				52CBBB05190AAD3F00EB9B48 /* WashingtonsConstants.m in Sources */,
+				520A9E6519022E81000A650C /* WashingtonsDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CCB0C218EB98F600A08DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CCB0D418EB98F700A08DBD /* Washington_s_RulesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CCB0CC18EB98F700A08DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CCB0AA18EB98F600A08DBD /* Washington's Rules */;
+			targetProxy = 52CCB0CB18EB98F700A08DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52CCB0B718EB98F600A08DBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CCB0B818EB98F600A08DBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52CCB0D018EB98F700A08DBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CCB0D118EB98F700A08DBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52CCB0D518EB98F700A08DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52CCB0D618EB98F700A08DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CCB0D818EB98F700A08DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Washington's Rules/Washington's Rules-Prefix.pch";
+				INFOPLIST_FILE = "Washington's Rules/Washington's Rules-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52CCB0D918EB98F700A08DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Washington's Rules/Washington's Rules-Prefix.pch";
+				INFOPLIST_FILE = "Washington's Rules/Washington's Rules-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52CCB0DB18EB98F700A08DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Washington's Rules.app/Washington's Rules";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Washington's Rules/Washington's Rules-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Washington's RulesTests/Washington's RulesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52CCB0DC18EB98F700A08DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Washington's Rules.app/Washington's Rules";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Washington's Rules/Washington's Rules-Prefix.pch";
+				INFOPLIST_FILE = "Washington's RulesTests/Washington's RulesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52CCB0A618EB98F600A08DBD /* Build configuration list for PBXProject "Washington's Rules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CCB0D518EB98F700A08DBD /* Debug */,
+				52CCB0D618EB98F700A08DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CCB0D718EB98F700A08DBD /* Build configuration list for PBXNativeTarget "Washington's Rules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CCB0D818EB98F700A08DBD /* Debug */,
+				52CCB0D918EB98F700A08DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CCB0DA18EB98F700A08DBD /* Build configuration list for PBXNativeTarget "Washington's RulesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CCB0DB18EB98F700A08DBD /* Debug */,
+				52CCB0DC18EB98F700A08DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		520A9E6319022E81000A650C /* WashingtonsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				520A9E6419022E81000A650C /* WashingtonsDataModel.xcdatamodel */,
+			);
+			currentVersion = 520A9E6419022E81000A650C /* WashingtonsDataModel.xcdatamodel */;
+			path = WashingtonsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52CCB0A318EB98F600A08DBD /* Project object */;
+}
